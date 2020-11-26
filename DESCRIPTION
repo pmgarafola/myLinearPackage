@@ -1,0 +1,18 @@
+Package: myLinearPackage
+Title: Perform linear regression and plot covariates
+Version: 0.0.1.0000
+Authors@R: 
+    person(given = "Peter",
+           family = "Garafola",
+           role = c("aut", "cre"),
+           email = "petermg@vt.edu.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package contains a function myLinearRegression that performs multi-variate linear regression. Also includes a test data set myData. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Imports: GGally
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+
